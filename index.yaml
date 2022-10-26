@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  registry-cache:
+  - apiVersion: v2
+    created: "2022-10-26T10:51:44.406939+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: e723452596d49fe38661a687f53853ac4d54f574b8356850c579452e7125cdc2
+    name: registry-cache
+    urls:
+    - https://github.com/fynluk/test-charts/releases/download/registry-cache-0.0.1/registry-cache-0.0.1.tgz
+    version: 0.0.1
+  - apiVersion: v2
+    created: "2022-10-26T10:51:44.209727+02:00"
+    dependencies:
+    - condition: controller.enabled
+      name: controller
+      repository: ""
+    description: A helmchart for registry-cache
+    digest: 4f2b5deb9ebccacdedc76f7db63f6a4d1a3aaf0f9d3ffc8210ae6676fcc33c7c
+    name: registry-cache
+    urls:
+    - https://github.com/fynluk/test-charts/releases/download/registry-cache-0.0.1-alpha/registry-cache-0.0.1-alpha.tgz
+    version: 0.0.1-alpha
+generated: "2022-10-26T10:51:44.406956+02:00"
